@@ -1,0 +1,41 @@
+.flex-parent{ 
+    width:200px;  /* 100vw */
+    height:200px; /* 100vh */
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-child{
+    background-color: aqua;
+    height: 80px;
+    width:80px;
+}
+.grid-parent{ 
+    width:200px;  /* 100vw */
+    height:200px; /* 100vh */
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-child{
+    background-color: aqua;
+    height: 80px;
+    width:80px;
+}
+.absolute-parent{ 
+     width:200px; /* 100vw */
+    height:200px; /* 100vh */
+    border: 4px solid black;
+    position: relative;
+}
+.absolute-child{
+    background-color: aqua;
+    height: 80px; 
+    width:80px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
